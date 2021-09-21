@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Your Age In Days</title>
+</head>
+<body>
+    <div class="container-1  h-screen bg-gradient-to-r from-green-400 to-blue-500 ...  ">
+        <h1 class=" animate-pulse text-4xl text-white text-center  pt-56 pb-10" >Your Age In Days !! </h1>
+
+        <form action="" onsubmit="ageInDays()" class="flex justify-center ml-24 mr-24 bg-white rounded-xl border-2 overflow-hidden">
+            <input id="year" type="search" placeholder="Enter your birth year ..." class="block rounded-md border-0 focus:outline-none focus:ring-0 focus:border-blue-500 flex-grow p-2">
+            
+        </form>
+        <div id="btn" class="  text-center  ">
+        <button type="button" onclick="ageInDays()" class=" mt-9 bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500   px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-pink-100 rounded-md ">Submit</button>
+        <button type="button" onclick="reset()" class=" mt-9 bg-gradient-to-r from-pink-500 to-yellow-500 ml-6  px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-pink-100 rounded-md ">Reset</button>
+        </div>
+
+        <div class="text-center text-white mt-4 text-3xl " id="here">  </div>
+       
+        <div style="position: relative;top: 36vh;" class="text-white text-center animate-bounce  ">
+            <h4>Made with ♡ by Ashish Sharma</h4>
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
