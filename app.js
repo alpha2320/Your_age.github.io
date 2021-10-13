@@ -1,8 +1,16 @@
 function ageInDays(){
     event.preventDefault();
+    
+
     let birthYear = document.getElementById('year').value;
     let dt= new Date();
+
+
+
     let ans = (dt.getFullYear() - birthYear)*365;
+
+
+
     let h1= document.createElement('h1');
     let answer = document.createTextNode( 'You are '+ ans +' days old !!');
     h1.setAttribute('id', 'ageInDays');
